@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SwiftIdea</string>
+    <string name="application_heading">SwiftIdea</string>
+    <string name="add_idea">Add Idea</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="swiftidea">SwiftIdea</string>
+    <string name="empty_element">Empty Element</string>
+    <string name="save_idea">Save Idea</string>
+    <string name="delete_idea">Delete idea</string>
+    <string name="go_back_to_menu">Go Back to Menu</string>
+</resources>

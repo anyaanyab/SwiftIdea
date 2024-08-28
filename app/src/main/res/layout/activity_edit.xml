@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_back_arrow"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/textSwiftIdea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/swiftidea"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/detailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card_View_Data"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <TextView
+            android:id="@+id/editIdea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20sp"
+            tools:ignore="TextViewEdits" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/go_back_to_menu" />
+
+</LinearLayout>
