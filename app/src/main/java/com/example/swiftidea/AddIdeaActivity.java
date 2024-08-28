@@ -1,6 +1,5 @@
 package com.example.swiftidea;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +25,6 @@ public class AddIdeaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add);
 
         // Views are found in the layout using their IDs
-
         // View for adding a new idea
         Button buttonAdd = findViewById(R.id.buttonAddIdea);
         // View for entering text

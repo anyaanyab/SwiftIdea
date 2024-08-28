@@ -54,7 +54,6 @@ public class IdeaAdapterTest {
         adapter = new IdeaAdapter(context, ideas);
 
         // Mock objects set up for objects
-
         when(context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).thenReturn(inflater);
         when(inflater.inflate(R.layout.list_item, parent, false)).thenReturn(convertView);
         when(convertView.findViewById(R.id.textView)).thenReturn(textView);
@@ -67,11 +66,9 @@ public class IdeaAdapterTest {
     public void testGetView() {
         // 'getVIew' method called with a position of 0
         View result = adapter.getView(0, null, parent);
-
         // Verification that the returned view is the mock 'convertView' object
         assertEquals(convertView, result);
         // Verification that the 'textView' is set with the text "Idea 1"
         verify(textView).setText("Idea 1");
     }
-
 }

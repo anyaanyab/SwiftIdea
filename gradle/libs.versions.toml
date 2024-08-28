@@ -9,7 +9,6 @@ activity = "1.9.1"
 constraintlayout = "2.1.4"
 mockito = "3.12.4"
 mockitoinLine = "3.12.4"
-robolectric = "4.7.3"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -21,8 +20,8 @@ activity = { group = "androidx.activity", name = "activity", version.ref = "acti
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 mockitoCore = { module = "org.mockito:mockito-core", version.ref = "mockito" }
 mockitoinLine = {module = "org.mockito:mockito-inline", version.ref = "mockitoinLine"}
-robolectric = {module = "org.robolectric:robolectric", version.ref = "robolectric"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+
 
