@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        android:hint="Enter your great idea here"
+        android:hint="@string/enter_your_great_idea"
         android:inputType="text"
         android:textSize="20sp" />
 
@@ -42,5 +42,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorAddButton"
-        android:text="Add Idea" />
+        android:text="@string/add_idea_" />
 </LinearLayout>

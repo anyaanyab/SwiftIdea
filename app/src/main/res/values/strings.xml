@@ -3,10 +3,11 @@
     <string name="application_heading">SwiftIdea</string>
     <string name="add_idea">Add Idea</string>
     <string name="delete">Delete</string>
-    <string name="open">Open</string>
     <string name="swiftidea">SwiftIdea</string>
     <string name="empty_element">Empty Element</string>
-    <string name="save_idea">Save Idea</string>
     <string name="delete_idea">Delete idea</string>
     <string name="go_back_to_menu">Go Back to Menu</string>
+    <string name="view">View</string>
+    <string name="enter_your_great_idea">Enter your great idea!</string>
+    <string name="add_idea_">Add Idea</string>
 </resources>

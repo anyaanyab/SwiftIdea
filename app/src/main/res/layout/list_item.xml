@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:backgroundTint="@color/colorOpenButton"
-        android:text="@string/open" />
+        android:text="@string/view" />
 
     <Button
         android:id="@+id/deleteButton"
